@@ -1,15 +1,44 @@
 p {
     color:black;
     font-size: small;
-    font: bold;
     }
-    a:link {
+
+a:link {
     color:aqua;
     }
-    a:visited {
+
+a:visited {
     color: blueviolet;
     }
-    table {
-    background-color: black;
-    color: white;
+
+table {
+    background-color: darkgray;
+    color: tomato;
     }
+
+th {
+    vertical-align: top;
+    text-align: left;
+    }
+
+td {
+    vertical-align: bottom;
+    text-align: right;
+    }
+
+th, td {
+    border: 2px plum
+    }
+
+caption {
+    caption-side: bottom;
+    font: bold;
+    }
+
+option {
+
+}
+
+div {
+
+}
